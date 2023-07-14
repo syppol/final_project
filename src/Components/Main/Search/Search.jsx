@@ -12,10 +12,10 @@ const Search = ({ className }) => {
   const navigate = useNavigate();
 
   const initialValues = {
-    inn: '7710137066',
+    inn: '',
     tonality: 'any',
     similarMode: "duplicates",
-    limit: '5',
+    limit: '',
     sortType: "sourceInfluence",
     sortDirectionType: "desc ",
     maxFullness: false,
