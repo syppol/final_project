@@ -37,7 +37,7 @@ const Search = ({ className }) => {
     inn: Yup.string()
       .required('Обязательное поле')
       .matches(/^[0-9]+$/, "ИНН может содержать только цифры")
-      .test('len', 'Должно быть 10 или 16 цифр', val => val.length === 10 || val.length === 16),
+      .test('len', 'Введите 10 цифр', val => val.length === 10 || val.length === 16),
     limit: Yup.number()
       .required('Обязательное поле')
       .min(1, 'Минимальное значение 1')
