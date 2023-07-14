@@ -128,6 +128,29 @@
     cursor: pointer;
 }
 
+.searchButton:hover {
+    background: #a0acfa;
+}
+
+.searchButtonDisabled {
+    border-radius: 5px;
+    background: #9faaf5;
+    border: none;
+    padding: 16px;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.66px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 305px;
+    height: 59px;
+    cursor: not-allowed;
+}
+
 .searchAddOptionsBlock {
     margin-bottom: 15px;
 }
@@ -158,7 +181,7 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.14px;
-    text-align: center;
+    text-align: start;
 }
 
 .promptMessage {
@@ -175,10 +198,6 @@
 .submitGroup {
     width: 100%;
     margin-top: 1rem;
-}
-
-.errorMessage {
-    text-align: center;
 }
 
 .submit {
@@ -207,6 +226,10 @@
 
     .errorField {
         width: 100%;
+    }
+
+    .errorMessage {
+        text-align: center;
     }
 
     .dateFieldsBlock {

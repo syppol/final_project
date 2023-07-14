@@ -29,6 +29,10 @@ const Search = ({ className }) => {
     endDate: new Date(),
   };
 
+  const today = new Date();
+  const yesterday = new Date(today);
+  yesterday.setDate(today.getDate() - 1);
+
   const validationSchema = Yup.object().shape({
     inn: Yup.string()
       .required('Обязательное поле')
@@ -45,6 +49,9 @@ const Search = ({ className }) => {
       .test('startDate', 'Дата окончания должна быть позже даты начала', function (value) {
         const { endDate } = this.parent;
         return endDate ? value <= endDate : true;
+      })
+      .test('startDate', 'Диапазон не может быть 0 дней', function (value) {
+        return yesterday ? value <= yesterday : true;
       }),
     endDate: Yup.date()
       .required('Обязательное поле')
@@ -271,7 +278,7 @@ const Search = ({ className }) => {
               </div>
             </div>
             <div className={css.searchButtonWrapper}>
-              <Button className={css.searchButton} type="submit" color="primary" disabled={!dirty || !isValid || isSubmitting}>Поиск</Button>
+              <Button className={!dirty || !isValid || isSubmitting ? css.searchButtonDisabled : css.searchButton} type="submit" color="primary" disabled={!dirty || !isValid || isSubmitting}>Поиск</Button>
               <p className={css.promptMessage}>* Обязательные к заполнению поля</p>
             </div>
           </div>
