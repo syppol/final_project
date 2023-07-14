@@ -1,0 +1,14 @@
+/* Companies.module.css */
+
+main {
+  margin: 0;
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 550px) {
+  main {
+      padding: 20px 14px;
+  }
+}

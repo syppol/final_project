@@ -1,0 +1,147 @@
+.mobileOpenedBurgerMenu {
+    background-image: url(../../Header/Assets/burger_menu.svg);
+    width: 30px;
+    height: 25px;
+    display: flex;
+}
+
+.burgerMenuWrapper {
+    background-color: #029491;
+    padding: 0 20px 20px 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.burgerMenuHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burgerMenuLogo {
+    width: 100px;
+    height: 100px;
+}
+
+.closeButtonMobileMenu {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    display: block;
+    position: relative;
+    margin-right: 28px;
+    z-index: 5;
+}
+
+.mobileMenuNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobileMenuNavOption {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    text-decoration: none;
+    margin-bottom: 26px;
+}
+
+.mobileUserInfo {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobileUserName {
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 0.08rem;
+}
+
+.mobileUserAvatar {
+    width: 64px;
+    height: 64px;
+    margin: 10px;
+}
+
+.logout {
+    border: none;
+    width: 295px;
+    height: 51.955px;
+    border-radius: 5px;
+    background: #7CE3E1;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.logout a {
+    text-decoration: none;
+}
+
+.logout a:hover {
+    text-decoration: underline;
+}
+
+.signOut {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.mobileUserUnreg {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobileUserSignUp {
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    opacity: 0.4;
+}
+
+.mobileUserSignIn {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    border: none;
+    width: 295px;
+    height: 51.955px;
+    border-radius: 5px;
+    background: #7CE3E1;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 50px;
+}

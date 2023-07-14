@@ -1,0 +1,235 @@
+.form {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 910px;
+    box-sizing: border-box;
+}
+
+.searchLeftPartForm {
+    width: fit-content;
+    height: fit-content;
+}
+
+.searchRightPartForm {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchFormLabel {
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    margin-bottom: 20px;
+}
+
+.searchFormField {
+    border-radius: 5px;
+    border: 1px solid #C7C7C7;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    padding: 13px;
+    max-width: 242px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.searchFormField::placeholder {
+    text-align: center;
+}
+
+.searchOptionBlock {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.select {
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #C7C7C7;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    padding: 13px;
+    max-width: 242px;
+    cursor: pointer;
+}
+
+.selectOption {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.dateFieldsBlock {
+    display: flex;
+}
+
+.searchDateStart {
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #C7C7C7;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    padding: 13px;
+    max-width: 242px;
+    margin-right: 20px;
+}
+
+.searchDateEnd {
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #C7C7C7;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    padding: 13px;
+    max-width: 242px;
+}
+
+.searchButton {
+    border-radius: 5px;
+    background: #5970FF;
+    border: none;
+    padding: 16px;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.66px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 305px;
+    height: 59px;
+    cursor: pointer;
+}
+
+.searchAddOptionsBlock {
+    margin-bottom: 15px;
+}
+
+.searchAddOptionsWrapper {
+    margin-bottom: 125px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.errorField {
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    padding: 13px;
+    cursor: pointer;
+}
+
+.errorMessage {
+    color: #FF5959;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    text-align: center;
+}
+
+.promptMessage {
+    color: #949494;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-align: start;
+}
+
+.submitGroup {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.errorMessage {
+    text-align: center;
+}
+
+.submit {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 850px) {
+    .form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .searchAddOptionsWrapper {
+        display: none;
+    }
+
+    .searchFormField {
+        width: 100%;
+    }
+
+    .searchOptionBlock {
+        width: 100%;
+    }
+
+    .errorField {
+        width: 100%;
+    }
+
+    .dateFieldsBlock {
+        flex-direction: column;
+    }
+
+    .searchDateStart {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .searchDateEnd {
+        width: 100%;
+    }
+
+    .dateWrapper {
+        width: 100%;
+    }
+
+    .searchButton {
+        width: 100%;
+        font-size: 20px;
+        letter-spacing: 0.4px;
+    }
+}

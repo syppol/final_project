@@ -1,0 +1,117 @@
+.signedAccountHeader {
+    display: flex;
+    align-items: center;
+}
+
+.companiesHeaderWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 170px;
+    height: 63px;
+    background: #d9d9d954;
+    border-radius: 5px;
+    margin-right: 100px;
+    padding: 14px 10px;
+    box-sizing: border-box;
+}
+
+.companiesInfo {
+    color: #000;
+    font-size: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    opacity: 0.4;
+    margin-right: 5px;
+    text-align: end;
+}
+
+.companiesNumber {
+    color: #000;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin-left: 5px;
+}
+
+.companiesNumberLimit {
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    color: #8ac540;
+    margin-left: 5px;
+}
+
+.userInfoHeaderWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.userName {
+    color: #000;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    opacity: 0.7;
+}
+
+.userAvatar {
+    width: 64px;
+    height: 64px;
+}
+
+.logout {
+    color: #000;
+    font-size: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    opacity: 0.4;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.logout a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logout a:hover {
+    text-decoration: underline;
+}
+
+.signOut {
+    color: #000;
+    font-size: 10px;
+    font-family: 'Inter';
+    letter-spacing: 0.1px;
+}
+
+@media (max-width: 850px) {
+
+    .userInfoHeaderWrapper,
+    .userAvatar {
+        display: none;
+    }
+
+    .companiesHeaderWrapper {
+        width: 100%;
+        margin-right: 20px;
+    }
+}

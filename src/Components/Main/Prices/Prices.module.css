@@ -1,0 +1,349 @@
+.pricesSection {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0;
+    align-items: flex-start;
+}
+
+.titlePrices {
+    margin: 0;
+    text-align: start;
+    color: #000;
+    font-size: 45px;
+    font-family: "Ferry";
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.45px;
+}
+
+.pricesCards {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.pricesCard {
+    /* width: 415px; */
+    width: 30%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.pricesCardBeginner {
+    /* width: 415px; */
+    width: 30%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.pricesCardBeginnerActive {
+    border: 2px solid #FFB64F;
+    border-radius: 10px;
+}
+
+.cardHeaderBeginner {
+    max-height: 132px;
+    background-color: #FFB64F;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px 30px 30px;
+    box-sizing: border-box;
+}
+
+.cardHeaderWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
+
+.cardTitle {
+    color: #000;
+    font-size: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+}
+
+.cardText {
+    color: #000;
+    font-size: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    text-align: start;
+}
+
+.pricesCardPro {
+    /* width: 415px; */
+    width: 30%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.purposeIcon {
+    position: absolute;
+    top: 5px;
+    right: 12px;
+}
+
+.pricesCardProActive {
+    border: 2px solid #7CE3E1;
+}
+
+.pricesCardBusiness {
+    /* width: 415px; */
+    width: 30%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.pricesCardProActive {
+    border: 2px solid #000;
+}
+
+.cardHeaderPro {
+    max-height: 132px;
+    background-color: #7CE3E1;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px 30px 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cardHeaderBusiness {
+    max-height: 132px;
+    background-color: #000;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px 30px 30px;
+    box-sizing: border-box;
+}
+
+.cardTitleBusiness {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+}
+
+.cardTextBusiness {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    text-align: start;
+}
+
+/* Body */
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 30px;
+    position: relative;
+}
+
+.cardTag {
+    width: 134px;
+    height: 24px;
+    border-radius: 10px;
+    background: #3BA5E0;
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+.cardPrice {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.priceWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.currentPrice {
+    color: #000;
+    font-size: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-right: 20px;
+}
+
+.oldPrice {
+    color: #000;
+    font-size: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    opacity: 0.5;
+}
+
+.installmentPlan {
+    color: #000;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+}
+
+.titlePriceIncludes {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.listPriceIncludes {
+    list-style-image: url("../Assets/icon-green-tick.svg");
+    padding: 0;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.listOption {
+    color: #000;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+}
+.cardFooter {
+    margin: 60px 30px 24px 30px;
+}
+
+.cardButtonLogged {
+    width: 100%;
+    height: 59px;
+    border-radius: 5px;
+    background: #D2D2D2;
+    border: none;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+.cardButtonUnlogged {
+    width: 100%;
+    height: 59px;
+    border-radius: 5px;
+    background: #5970FF;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    cursor: pointer;
+}
+
+.cardButtonUnlogged:hover {
+    background: #909efd;
+}
+
+.cardButtonLogged:hover {
+    background: #7e7d7d;
+}
+
+@media (max-width: 500px) {
+    .titlePrices{
+        font-size: 28px;
+        letter-spacing: 0.28px;
+    }
+
+    .pricesSection {
+        margin: 20px 0;
+    }
+
+    .pricesCards {
+        flex-direction: column;
+    }
+
+    .pricesCardBeginner {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .pricesCardBeginnerActive {
+        width: 100%;
+    }
+
+    .pricesCardPro {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .pricesCardBusiness {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .cardButtonUnlogged {
+        margin-top: 30px;
+    }
+
+    .cardButtonLogged {
+        margin-top: 30px;
+    }
+}

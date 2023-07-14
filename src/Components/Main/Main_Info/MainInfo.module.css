@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Ferry";
+    src: url("../../../../public/fonts/Ferry-Black.ttf") format("truetype");
+}
+
+.mainInfoSection {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    min-height: calc(100vh - 200px);
+}
+
+.mainInfoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infoRightSection {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.mainTitle {
+    margin: 0;
+    font-family: "Ferry";
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 0.6px;
+    color: black;
+}
+
+.mainText {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    margin: 20px 0 70px;
+    max-width: 534px;
+}
+
+.mainButton {
+    width: 335px;
+    height: 59px;
+    border-radius: 5px;
+    background-color: #5970FF;
+    border: none;
+    color: #FFF;
+    font-size: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.22px;
+    cursor: pointer;
+}
+
+.mainButton a {
+    color: #FFF;
+    font-size: 22px;
+    font-family: 'Inter';
+    font-weight: 500;
+    letter-spacing: 0.22px;
+    text-decoration: none;
+}
+
+.mainButton:hover {
+    background-color: #9da8f4;
+}
+
+.imgLeftMain {
+    position: relative;
+}
+
+@media (max-width: 500px) {
+
+    .mainInfoWrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .infoRightSection{
+        margin-bottom: 40px;
+    }
+
+    .mainTitle {
+        font-size: 28px;
+        letter-spacing: 0.28px;
+        width: 361px;
+    }
+
+    .mainText {
+        color: #000;
+        font-size: 18px;
+        letter-spacing: 0.18px;
+        margin: 20px 0 30px;
+        max-width: 327px;
+    }
+
+    .mainButton {
+        font-size: 20px;
+    }
+
+    .mainInfoImgMobile {
+        align-self: center;
+    }
+}
+
+
+/* .mainInfoImg::before {
+    content: "";
+    width: 30px;
+    height: 25px;
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 52px;
+} */

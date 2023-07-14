@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Ferry";
+    src: url("../../../../public/fonts/Ferry-Black.ttf") format("truetype");
+}
+
+.notFoundSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    flex-grow: 1;
+}
+
+.notFoundTitle {
+    color: #000;
+    font-size: 30px;
+    font-family: "Ferry";
+    font-weight: 900;
+    letter-spacing: 0.6px;
+}
+
+.notFoundLink {
+    cursor: pointer;
+}
+
+.notFoundLink:hover {
+    color: #3e3e3e;
+}
+
+@media(max-width: 960px) {
+    .notFoundTitle {
+        width: 100%;
+        font-size: 22px;
+        letter-spacing: 0.44px;
+
+    }
+
+    .notFoundSection {
+        padding: 40px 15px;
+    }
+}
